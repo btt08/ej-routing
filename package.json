@@ -1,0 +1,18 @@
+{
+  "name": "ej-routing-repaso",
+  "version": "1.0.0",
+  "description": "Ejercicio de repaso con todo lo de routing y variables de entorno",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "dev": "set NODE_ENV=development&& node ./app.js",
+    "prod": "set NODE_ENV=production&& node ./app.js"
+  },
+  "author": "BTT",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

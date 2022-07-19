@@ -18,7 +18,6 @@ btnSearch.addEventListener('click', async (e) => {
       newDiv.classList.add('car');
       for (const property in car) {
         const newP = document.createElement('p');
-        console.log(`${property}: ${car[property]}`)
         newP.innerText = `${property}: ${car[property]}`;
         newDiv.append(newP);
       }
